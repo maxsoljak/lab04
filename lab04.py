@@ -11,5 +11,8 @@ elif x == "bad":
         a = input("How can I help you?")
         if a == "i dont know":
             print("Thats okay, sometimes we dont know what is really wrong")
+            b = input("Would you like to solve a math problem to feel better?")
+            if b == "yes":
+                equal = input("how much 2+2")
     elif y == "no":
         exit()
