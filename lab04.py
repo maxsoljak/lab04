@@ -1,3 +1,6 @@
 print("Hello world")
 
-input("How are you today")
+x = input("How are you today")
+
+if x == "good":
+    print("Thats awesome")
