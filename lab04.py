@@ -14,5 +14,7 @@ elif x == "bad":
             b = input("Would you like to solve a math problem to feel better?")
             if b == "yes":
                 equal = input("how much 2+2")
+                if equal == 4:
+                        print("Thats correct")
     elif y == "no":
         exit()
