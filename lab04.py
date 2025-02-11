@@ -6,3 +6,6 @@ if x == "good":
     print("Thats awesome")
 elif x == "bad":
     print("Oh no whats wrong")
+    y = input("Can I help you somehow?")
+    if y == "Yes":
+        print("How can I help you?")
