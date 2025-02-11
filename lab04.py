@@ -7,5 +7,8 @@ if x == "good":
 elif x == "bad":
     print("Oh no whats wrong")
     y = input("Can I help you somehow?")
-    if y == "Yes":
-        print("How can I help you?")
+    if y == "yes":
+        a == input("How can I help you?")
+        
+    elif y == "no":
+        exit()
