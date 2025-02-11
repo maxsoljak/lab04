@@ -16,5 +16,7 @@ elif x == "bad":
                 equal = input("how much 2+2")
                 if equal == 4:
                         print("Thats correct")
+            elif b == "no":
+                exit()
     elif y == "no":
         exit()
